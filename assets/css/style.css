@@ -1,5 +1,6 @@
 :root{
 	--themecolor: #1dd1a1;
+	--themecolor2: #24292e;
 }
 
 .container{
@@ -15,18 +16,23 @@
 	margin-top: 2rem;
 }
 
+.mnc1 .card-title, .skills .card-title{
+	font-size: 20px;
+	font-weight: 500;
+	color : var(--themecolor);
+}
+
+.pr-list{
+	padding-left: 1rem;
+}
+
 .pr-list li{
 	list-style-type: none;
 }
 
-.pr-list a{
+.pr-list .project-name{
+	text-decoration: underline;
 	color: var(--themecolor);
-}
-
-.skills .card-title{
-	font-size: 20px;
-	font-weight: 500;
-	color : var(--themecolor);
 }
 
 .skill{
@@ -41,7 +47,7 @@
 	position: absolute;
 }
 .level-bar{
-	background: yellow;
+	background: #f7e018;
 	width: 70%;
 	height: 2rem;
 	top: 0;
@@ -55,6 +61,10 @@
 .uptd{
 	text-align: right;
 	margin: 2rem 0rem;
+}
+
+.uptd code{
+	color: var(--themecolor2)
 }
 @media(max-width: 1999px){
 	.container{
