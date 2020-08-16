@@ -1,0 +1,63 @@
+:root{
+	--themecolor: #1dd1a1;
+}
+
+.container{
+	width: 1200px;
+}
+
+.banner{
+	background-color: lightgrey;
+	padding: 2rem 0rem;
+}
+
+.mnc{
+	margin-top: 2rem;
+}
+
+.pr-list li{
+	list-style-type: none;
+}
+
+.pr-list a{
+	color: var(--themecolor);
+}
+
+.skills .card-title{
+	font-size: 20px;
+	font-weight: 500;
+	color : var(--themecolor);
+}
+
+.skill{
+	position: relative;
+	background: grey;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+}
+
+.level-bar, .skill-name{
+	position: absolute;
+}
+.level-bar{
+	background: yellow;
+	width: 70%;
+	height: 2rem;
+	top: 0;
+	left: 0;
+}
+.skill-name{
+	left: 5%;
+	font-weight: 500;
+}
+
+.uptd{
+	text-align: right;
+	margin: 2rem 0rem;
+}
+@media(max-width: 1999px){
+	.container{
+		width: 95%;
+	}
+}
