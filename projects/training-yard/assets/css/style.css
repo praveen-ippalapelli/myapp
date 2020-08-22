@@ -1,0 +1,26 @@
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #d4e3ea;
+    width: max-content;
+}
+.lp:before{
+	left: 8%;
+}
+
+@media only screen and (max-width: 1200px){
+.lp:before{
+	left: 7%;
+}
+}
+
+@media only screen and (max-width: 767px){
+	.lp:before{
+		left: 5%;
+}
+}
+
+@media only screen and (max-width: 500px){
+	.lp:before{
+		left: 3%;
+}
+}
+

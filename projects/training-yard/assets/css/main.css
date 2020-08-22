@@ -1,0 +1,58 @@
+:root{
+  --themecolor:#060f29;
+  --md-text:#1560dc;
+}
+*{
+    font-size: 1vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+	/*background-color: #060f29;*/
+	background-color: white;
+}
+img{
+    width:100%;
+}
+li{
+    list-style-type:none;
+}
+.md-fluid {
+    width: 92%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*.md-banner{
+  height: 80vh;
+  background-color: rgba(4, 112, 211, 0.3);;
+  position: relative;
+}
+.md-banner .md-fluid{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+.font-weight-500{
+    font-weight: 500;
+}
+.bg-black{
+  background-color: black;
+}
+.bg-white{
+  background-color: white;
+}
+.width100{
+  width: 100%;
+}
+.pos-abs{ position: absolute; }
+.pos-rel{ position: relative; }
+.uppercase{ text-transform:uppercase; }
+
+@media only screen and (max-width: 1200px){
+  *{
+    font-size: 1rem;
+  }
+}
