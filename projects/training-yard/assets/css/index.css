@@ -287,6 +287,12 @@ section .main_title span{
     margin-bottom: 5px;
 }
 }
+.blog-img{
+    border-radius:10px;
+}
+.blog-card:hover {
+    box-shadow:-2px 4px 11px 2px;
+}
 
 @media only screen and (max-width: 400px){
 	.main_title, .main_title span {
