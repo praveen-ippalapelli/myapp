@@ -10,6 +10,9 @@ img{
 li{
     list-style-type:none;
 }
+.pointer-none{
+	pointer-events: none;
+}
 .container-fluid {
     width: 1200px;
     padding-right: 15px;
