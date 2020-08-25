@@ -12,6 +12,9 @@ img{
 li{
     list-style-type:none;
 }
+.pointer-none{
+    pointer-events: none;
+}
 .md-fluid {
     width: 92%;
     padding-right: 15px;
@@ -194,7 +197,7 @@ section .main_title span{
     line-height:2;
 }
 .gallery p{
-    font-weight:bold;
+    font-weight:500;
 }
 /*.gallery .btn{
     font-weight:bold;
@@ -215,7 +218,7 @@ section .main_title span{
     font-size:1.3vw;
     color:var(--themecolor);
     background-color: var(--themecolor);
-    box-shadow: #fff 0 1em inset;
+    box-shadow: #fff 0 20px inset;
     transition: box-shadow 0.3s ease-out,color 0.2s;
     position: relative;
     padding-left:1%;
