@@ -60,7 +60,7 @@ header{
 	transform: translate(-50%, -50%);
 }
 #topbar .col1, #topbar .col2{
-	font-size: 1vw;
+	font-size: 1rem;
 }
 #topbar .info{
 	color: white;
@@ -72,7 +72,7 @@ header{
 	padding: 0% 10%;
 }
 #topbar .social-icon{
-	/*font-size: 1vw;*/
+	/*font-size: 1rem;*/
 	display: inline-flex;
 	/*padding-top: 3px;*/
 	/*margin-left: 30%;*/
@@ -95,7 +95,7 @@ header{
 .navbar-nav .nav-item .book{
     background: var(--themecolor);
     color:white;
-    border-radius:0.4vw;
+    border-radius:0.4rem;
     border:2px solid var(--themecolor);
 }
 .navbar-nav .nav-item .book:hover{
@@ -107,7 +107,7 @@ header{
     position:relative;
 }
 .home-banner{
-	height: 80vh;
+	/*height: 80vh;*/
 	background-color: grey;
 	position: relative;
 }
@@ -119,13 +119,17 @@ header{
 	transform: translate(-50%, -50%);
 }
 .home-banner .carousel-inner{
-    height:80vh;
+    height:30rem;
 }
 .home-banner .carousel-item .carousel-caption{
-    top:30vh;
+    top:10rem;
+    text-shadow: 2px 2px white;
+    color: var(--themecolor);
     height:max-content;
+    z-index: 2;
 }
 .home-banner .carousel-item img{
+    object-fit: cover;
     transform: scale(1);
     transition: transform 3s
 }
@@ -136,20 +140,21 @@ header{
     transform: scale(1.1);
 }
 .home-banner .carousel-item .caption-title{
-    font-size:4vw;
+    font-size:4rem;
     font-weight:bold;
 }
 .home-banner .carousel-item .carousel-caption p{
-    font-size:2vw;
+    font-size:2rem;
     font-weight:bold;
 }
 .book-form{
     z-index:2;
-    border-radius: 1vw;
-    border: 0.1vw solid var(--themecolor);
+    border-radius: 1rem;
+    border: 0.1rem solid var(--themecolor);
     margin-right: auto;
     margin-left: auto;
-    width: 90%;
+    width: 100%;
+    max-width: 1000px;
     position: absolute;
     height: max-content;
     padding:2% 6%;
@@ -163,15 +168,15 @@ header{
 }
 .book-form button{
     padding: 0% 5%;
-    height: 2.5vw;
+    height: 2.5rem;
 	font-weight:bold;
     background: var(--themecolor);
     color:white;
-    border-radius:0.4vw;
+    border-radius:0.4rem;
     border:2px solid var(--themecolor);
 }
 .main_title, .main_title span{
-	font-size: 3vw;
+	font-size: 3rem;
 }
 section .main_title{
 	text-shadow: 3px 4px #c6c6c6;
@@ -183,7 +188,7 @@ section .main_title span{
 	color: var(--themecolor);
 }
 .gallery{
-    padding-top:25vh;
+    padding-top:10rem;
 }
 .gallery .card{
     border:unset;
@@ -192,33 +197,19 @@ section .main_title span{
     padding:5% 0%;
 }
 .gallery .card-title{
-    font-size:1.7vw;
+    font-size:1.7rem;
     font-weight:bold;
     line-height:2;
 }
 .gallery p{
     font-weight:500;
 }
-/*.gallery .btn{
-    font-weight:bold;
-    text-transform:uppercase;
-    width:40%;
-    background: var(--themecolor);
-    color:white;
-    border-radius:0.4vw;
-    border:2px solid var(--themecolor);
-}
-.gallery .btn:hover{
-    color: var(--md-text);
-    background-color:white;
-    border:2px solid var(--md-text);
-}*/
 .gallery .more-inset{
     font-weight:bold;
-    font-size:1.3vw;
+    font-size:1.3rem;
     color:var(--themecolor);
     background-color: var(--themecolor);
-    box-shadow: #fff 0 20px inset;
+    box-shadow: #fff 0 25px inset;
     transition: box-shadow 0.3s ease-out,color 0.2s;
     position: relative;
     padding-left:1%;
@@ -229,14 +220,15 @@ section .main_title span{
     box-shadow: #fff 0 0 inset;
 }
 .blogs{
-    padding-top:10vh;
-    padding-bottom:10vh;
+    padding-top:10rem;
+    padding-bottom:10rem;
 }
 .blogs .column{
 	padding: 0% 3%;
 }
 .blogs img{
-	height: 20vw;
+	height: 15rem;
+    object-fit: cover;
 }
 .blogs .top .left, .blogs .top .right{
 	color: grey;
@@ -255,23 +247,23 @@ section .main_title span{
 }
 .blogs .txt{
 	font-weight: bold;
-	font-size:1.2vw;
+	font-size:1.2rem;
 }
 .blogs .by{
 	color: grey;
 }
 .blogs .icons a{
 	color: black;
-	font-size: 1.3vw;
+	font-size: 1.3rem;
 	margin:0% 1%;
 }
 .blogs .icons i{
 	position: relative;
-	width: 1vw;
+	width: 1rem;
 }
 .blogs .icons i:after{
 	opacity: 0;
-	font-size: 2vw;
+	font-size: 2rem;
 	content: "C";
   position: absolute;
   top: 50%;
@@ -289,7 +281,7 @@ section .main_title span{
 }
 .blogs .more-link{
     color:var(--md-text);
-    font-size:1.1vw;
+    font-size:1.1rem;
 }
 .contact{
     padding:5% 10%;
@@ -304,11 +296,11 @@ section .main_title span{
     margin:3% 0%;
 }
 #footer span{
-    font-size:1.3vw;
+    font-size:1.3rem;
     font-weight:bold;
 }
 #footer p{
-    font-size:1.2vw;
+    font-size:1.2rem;
 }
 #footer .social i{
     margin:0% 2%;
@@ -316,8 +308,8 @@ section .main_title span{
     background-color:white;
     border-radius:50%;
     padding:1% 1%;
-    font-size:2vw;
-    border:0.1vw solid var(--themecolor);
+    font-size:2rem;
+    border:0.1rem solid var(--themecolor);
 }
 #footer .social .fa-twitter{
     padding:1% 1%;
@@ -325,7 +317,7 @@ section .main_title span{
 #footer .social .fa-twitter:hover{
     color:#55acee;
     background-color:white;
-    border:0.1vw solid #55acee;
+    border:0.1rem solid #55acee;
 }
 #footer .social .fa-facebook{
     padding:1% 1.5%;
@@ -333,14 +325,17 @@ section .main_title span{
 #footer .social .fa-facebook:hover{
     color:#3b5998;
     background-color:white;
-    border:0.1vw solid #3b5998;
+    border:0.1rem solid #3b5998;
 }
 
 
 /*min-width : 1200px  ends menu collapse*/
 @media only screen and (min-width: 1200px){
+    .md-fluid{
+        width: 1100px;
+    }
 	#menu{
-		height: 20vh;
+		height: 6rem;
 		position: relative;
 	}
 	#menu .md-fluid{
@@ -351,14 +346,14 @@ section .main_title span{
 		transform: translate(-50%, -50%);
 	}
 	.navbar-brand img{
-		width: 12vw;
+		width: 12rem;
 	}
 	.navbar-light .navbar-nav .nav-link{
-		font-size: 1.3vw;
+		font-size: 1rem;
 	}
 	.navbar-light .navbar-nav .nav-link {
-		padding-left: 2vw;
-		padding-right: 2vw;
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 	#menu .services{
 	left: -30rem;
@@ -369,12 +364,6 @@ section .main_title span{
 }
 /*min-width : 1200px  ends menu collapse*/
 
-
-@media only screen and (max-width: 1200px){
-  *{
-    font-size: 1rem;
-  }
-}
 
 @media only screen and (max-width: 1200px){
 .lp:before{
@@ -390,13 +379,16 @@ section .main_title span{
 	    height:100%;
 	}
 	.home-banner .carousel-item .carousel-caption{
-	    top:37%;
+	    top:30%;
 	}
 	.main_title, .main_title span {
     font-size: 3rem;
 }
 .book-form{
     top:75%;
+    position: unset;
+    transform: unset;
+    margin-top: 5rem;
 }
 .book-form button{
     height:2rem;
@@ -426,18 +418,23 @@ section .main_title span{
 	.blogs .icons i:hover::after{
 	opacity: 0;
 }
-}
-
-@media(max-width:1199px){
-    #footer span{
+ #footer span{
         font-size:1.2rem;
     }
     #footer p, #footer .social i{
         font-size:1rem;
     }
-}
-
-@media only screen and (max-width: 1199px){
+    header{
+		position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    padding: 10px 0px;
+    background: white;
+	}
+	#menu{
+		min-height: unset;
+	}
 	#topbar{
 		height: 5rem;
 	}
@@ -447,11 +444,8 @@ section .main_title span{
 	#topbar .social-icon{
 		font-size: 1rem;
 	}
-	#menu .navbar{
-		margin-top: 1rem;
-	}
 	#menu .navbar-brand img {
-    height: 10vw;
+    height: 10rem;
     width: auto;
    }
 	#menu .dropdown-menu .row {
@@ -462,8 +456,6 @@ section .main_title span{
     width: max-content;
 }
 }
-
-
 
 @media only screen and (max-width: 1000px){
 	#topbar .mail {
@@ -484,20 +476,15 @@ section .main_title span{
 	.main_title, .main_title span {
     font-size: 2.5rem;
 }
-.gallery {
-    padding-top: 10rem;
-}
 .blogs {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-}
-
-@media only screen and (max-width: 991px){
-	.navbar-nav{
+.navbar-nav{
 		margin-top: 0rem !important;
 	}
 }
+
 @media only screen and (max-width: 852px){
 	#topbar .mail {
 		padding: 0% 0%;
@@ -508,30 +495,24 @@ section .main_title span{
 	.lp:before{
 		left: 5%;
 }
-}
-
-@media only screen and (max-width: 767px){
-	#topbar .col1, #topbar .col2{
+#topbar .col1, #topbar .col2{
 		padding:1% 0%;
 	}
 	#topbar .social-icon{
 		margin-left: 30%;
 	}
-}
-
-@media only screen and (max-width: 767px){
-    .home-banner .carousel-item .carousel-caption p{
+	.home-banner .carousel-item .carousel-caption{
+		top: 40%;
+	}
+	.home-banner .carousel-item .carousel-caption p{
         display:none;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 480px){
 	.lp:before{
 		left: 3%;
 }
-}
-
-@media only screen and (max-width: 480px){
     .home-banner, .home-banner .carousel-item{
         height:20rem;
     }

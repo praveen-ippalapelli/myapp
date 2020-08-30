@@ -773,6 +773,9 @@ section{
 	width: max-content;
 	opacity: 0;
 }
+.team .tm1 .info{
+	opacity: 1;
+}
 .team .tm:hover .team_info{
 	opacity: 1;
 }
