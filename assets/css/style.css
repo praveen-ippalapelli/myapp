@@ -12,6 +12,10 @@
 	padding: 2rem 0rem;
 }
 
+.main-content .card{
+	height: 100%;
+}
+
 .mnc{
 	margin-top: 2rem;
 }
@@ -36,8 +40,9 @@
 }
 
 .skill{
+	margin-bottom: 10px;
 	position: relative;
-	background: grey;
+	background: lightgrey;
 	height: 2rem;
 	display: flex;
 	align-items: center;

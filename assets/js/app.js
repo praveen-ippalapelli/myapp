@@ -1,15 +1,25 @@
-let skills = {
-	"html" : { "title" : "HTML", "known" : "80%", "bg_color" : "", "color" : "" },
-	"web_dev" : { "title" : "Web Development", "known" : "80%", "bg_color" : "", "color" : "" },
-	"front_end" : { "title" : "Frond-end Development", "known" : "80%", "bg_color" : "", "color" : "" },
-	"css" : { "title" : "CSS", "known" : "80%", "bg_color" : "", "color" : "" },
-	"responsive_web" : { "title" : "Responsive Web Design", "known" : "80%", "bg_color" : "", "color" : "" },
-	"javascript" : { "title" : "Javascript", "known" : "80%", "bg_color" : "", "color" : "" },
-	"jquery" : { "title" : "Jquery", "known" : "80%", "bg_color" : "", "color" : "" },
-	"json" : { "title" : "JSON", "known" : "80%", "bg_color" : "", "color" : "" },
-	"bootstrap" : { "title" : "Bootstrap", "known" : "80%", "bg_color" : "", "color" : "" },
-	"postman" : { "title" : "Postman API", "known" : "80%", "bg_color" : "", "color" : "" },
-	"onpage_opt" : { "title" : "On-Page Optimisation", "known" : "80%", "bg_color" : "", "color" : "" },
-	"onpage_seo" : { "title" : "On-Page SEO", "known" : "50%", "bg_color" : "", "color" : "" }
-};
-/*alert(skills.onpage_seo.known);*/
+html = { "title" : "HTML", "known" : "8", "bg_color" : "#e44d26", "color" : "white" };
+css = { "title" : "CSS", "known" : "7", "bg_color" : "#264de4", "color" : "white" };
+javascript = { "title" : "Javascript", "known" : "7", "bg_color" : "#f7e018", "color" : "black" };
+bootstrap = { "title" : "Bootstrap", "known" : "7", "bg_color" : "#533b78", "color" : "white" };
+jquery = { "title" : "Jquery", "known" : "6", "bg_color" : "#0865a6", "color" : "#f2f2f2" };
+mysql = { "title" : "MySql", "known" : "3", "bg_color" : "#00718b", "color" : "#ea8c10" };
+reactjs = { "title" : "React JS", "known" : "3", "bg_color" : "#222222", "color" : "#61dafb" };
+nodejs = { "title" : "Node JS", "known" : "3", "bg_color" : "#313131", "color" : "#64b648" };
+json = { "title" : "JSON", "known" : "4", "bg_color" : "#2f2f2f", "color" : "white" };
+
+
+
+var skill_array = [javascript, reactjs, mysql, nodejs, html, css, bootstrap, jquery, json];
+
+	for(i=0; i<skill_array.length; i++){
+		$('.skills-list').append(
+		`
+		<div class="skill">
+			<div class="level-bar" style="background:${skill_array[i].bg_color};width:${skill_array[i].known}0%;"></div>
+			<div class="skill-name" style="color:${skill_array[i].color};">${skill_array[i].title}</div>
+		</div>
+		`
+		);
+	}
+
