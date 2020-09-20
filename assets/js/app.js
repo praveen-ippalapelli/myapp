@@ -7,10 +7,11 @@ mysql = { "title" : "MySql", "known" : "3", "bg_color" : "#00718b", "color" : "#
 reactjs = { "title" : "React JS", "known" : "3", "bg_color" : "#222222", "color" : "#61dafb" };
 nodejs = { "title" : "Node JS", "known" : "3", "bg_color" : "#313131", "color" : "#64b648" };
 json = { "title" : "JSON", "known" : "4", "bg_color" : "#2f2f2f", "color" : "white" };
+php = { "title" : "PHP", "known" : "3", "bg_color" : "#777bb3", "color" : "black" };
 
 
 
-var skill_array = [javascript, reactjs, mysql, nodejs, html, css, bootstrap, jquery, json];
+var skill_array = [javascript, reactjs, mysql, nodejs, php, html, css, bootstrap, jquery, json];
 
 	for(i=0; i<skill_array.length; i++){
 		$('.skills-list').append(
