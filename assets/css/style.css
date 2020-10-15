@@ -37,6 +37,22 @@
 .pr-list .project-name{
 	text-decoration: underline;
 	color: var(--themecolor);
+	position: relative;
+}
+
+.pr-list .project-name::after{
+	content: " \21F1";
+    color: var(--themecolor);
+    position: absolute;
+    opacity: 0;
+    transform: rotate(90deg);
+    top: 3px;
+    right: -13px;
+    font-size: 12px;
+}
+
+.pr-list .project-name:hover:after{
+	opacity: 1;
 }
 
 .skill{
