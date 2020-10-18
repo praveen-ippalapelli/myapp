@@ -78,7 +78,22 @@
 	left: 5%;
 	font-weight: 500;
 }
-
+.knowledge .card{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem 0rem;
+}
+.knowledge{
+	margin: 2rem 0rem;
+}
+.knowledge img{
+	width: 5rem;
+	margin: 1rem 1rem;
+	height: inherit;
+}
 .uptd{
 	text-align: right;
 	margin: 2rem 0rem;
