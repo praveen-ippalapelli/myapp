@@ -87,6 +87,11 @@
 .uptd code{
 	color: var(--themecolor2)
 }
+@media(min-width: 576px){
+	.nav-to-skill{
+		color: unset;
+	}
+}
 @media(max-width: 1999px){
 	.container{
 		width: 95%;
