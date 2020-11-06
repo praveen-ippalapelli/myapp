@@ -10,10 +10,11 @@ json = { "title" : "JSON", "known" : "6", "bg_color" : "#2f2f2f", "color" : "whi
 php = { "title" : "PHP", "known" : "3", "bg_color" : "#777bb3", "color" : "black" };
 mongodb = { "title" : "MongoDB", "known" : "3", "bg_color" : "#11924f", "color" : "white" };
 expressjs = { "title" : "Express.js", "known" : "3", "bg_color" : "#eee", "color" : "black" };
+kitsune = { "title" : "Kitsune Framework", "known" : "7", "bg_color" : "#f06428", "color" : "white" };
 
 
 
-var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, expressjs, php, html, css, bootstrap, jquery, json];
+var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, expressjs, kitsune, php, html, css, bootstrap, jquery, json];
 
 	for(i=0; i<skill_array.length; i++){
 		$('.skills-list').append(
