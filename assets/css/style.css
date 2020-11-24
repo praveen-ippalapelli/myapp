@@ -107,8 +107,15 @@
 		color: unset;
 	}
 }
+
 @media(max-width: 1999px){
 	.container{
 		width: 95%;
+	}
+}
+
+@media(max-width: 575px){
+	.skill.gt-10{
+		display: none;
 	}
 }
