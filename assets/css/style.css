@@ -148,6 +148,9 @@ a.icon{
 	.banner .row{
 		flex-direction: column-reverse;
 	}
+	.banner .column2{
+		padding-bottom: 1rem;
+	}
 	.skill.gt-10{
 		display: none;
 	}
