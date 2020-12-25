@@ -38,6 +38,10 @@ a.icon{
 	height: 30px;
 }
 
+.social .mail{
+	color: black;
+}
+
 .main-content .card{
 	height: 100%;
 }
