@@ -12,6 +12,32 @@
 	padding: 2rem 0rem;
 }
 
+.banner .column2{
+	text-align: center;
+}
+
+.banner .name{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.banner .social{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+a.icon{
+	margin: 0px 10px;
+	text-decoration: unset;
+}
+
+.social img{
+	width: 30px;
+	height: 30px;
+}
+
 .main-content .card{
 	height: 100%;
 }
@@ -115,6 +141,9 @@
 }
 
 @media(max-width: 575px){
+	.banner .row{
+		flex-direction: column-reverse;
+	}
 	.skill.gt-10{
 		display: none;
 	}
