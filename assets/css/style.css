@@ -17,9 +17,10 @@
 }
 
 .banner .name{
+	line-height: 1.3;
 	font-size: 25px;
 	font-weight: bold;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .banner .social{
@@ -149,7 +150,11 @@ a.icon{
 		flex-direction: column-reverse;
 	}
 	.banner .column2{
-		padding-bottom: 1rem;
+		text-align: left;
+		padding-bottom: 2rem;
+	}
+	.banner .social{
+		justify-content: unset;
 	}
 	.skill.gt-10{
 		display: none;
