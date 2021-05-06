@@ -12,6 +12,10 @@
 	padding: 2rem 0rem;
 }
 
+.banner .desc{
+	margin-bottom: 0;
+}
+
 .banner .column2{
 	text-align: center;
 }

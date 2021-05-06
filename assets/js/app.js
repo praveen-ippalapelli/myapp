@@ -16,7 +16,7 @@ material_ui = { "title" : "Material UI", "known" : "4", "bg_color" : "#0081cb", 
 
 
 
-var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, expressjs, kitsune, php, html, css,
+var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, expressjs, php, html, css,
  redux, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
 	for(i=0; i<skill_array.length; i++){
@@ -32,4 +32,5 @@ var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, expressjs, kitsu
 		`
 		);
 	}
+
 
