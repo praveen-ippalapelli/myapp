@@ -12,6 +12,10 @@
 	padding: 2rem 0rem;
 }
 
+.banner .row{
+	align-items: center;
+}
+
 .banner .desc{
 	margin-bottom: 0;
 }
