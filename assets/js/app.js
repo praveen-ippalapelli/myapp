@@ -1,6 +1,6 @@
 html = { "title" : "HTML", "known" : "8", "bg_color" : "#e44d26", "color" : "white" };
 css = { "title" : "CSS", "known" : "8", "bg_color" : "#264de4", "color" : "white" };
-javascript = { "title" : "Javascript", "known" : "7", "bg_color" : "#f7e018", "color" : "black" };
+javascript = { "title" : "Javascript", "known" : "6", "bg_color" : "#f7e018", "color" : "black" };
 bootstrap = { "title" : "Bootstrap", "known" : "7", "bg_color" : "#533b78", "color" : "white" };
 jquery = { "title" : "Jquery", "known" : "6", "bg_color" : "#0865a6", "color" : "#f2f2f2" };
 mysql = { "title" : "MySql", "known" : "3", "bg_color" : "#00718b", "color" : "#ea8c10" };
