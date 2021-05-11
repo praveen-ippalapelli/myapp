@@ -69,6 +69,10 @@ a.icon{
 	padding-left: 1rem;
 }
 
+.pr-list strong{
+	font-weight: 600;
+}
+
 .pr-list li{
 	list-style-type: none;
 }
