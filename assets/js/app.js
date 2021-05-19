@@ -11,7 +11,7 @@ php = { "title" : "PHP", "known" : "4", "bg_color" : "#777bb3", "color" : "black
 mongodb = { "title" : "MongoDB", "known" : "3", "bg_color" : "#11924f", "color" : "white" };
 expressjs = { "title" : "Express.js", "known" : "4", "bg_color" : "#eee", "color" : "black" };
 kitsune = { "title" : "Kitsune Framework", "known" : "7", "bg_color" : "#f06428", "color" : "white" };
-redux = { "title" : "Redux", "known" : "5", "bg_color" : "#764abc", "color" : "white" };
+redux = { "title" : "Redux", "known" : "4", "bg_color" : "#764abc", "color" : "white" };
 material_ui = { "title" : "Material UI", "known" : "4", "bg_color" : "#0081cb", "color" : "white" };
 
 

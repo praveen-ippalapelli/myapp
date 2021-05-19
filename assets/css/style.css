@@ -171,4 +171,7 @@ a.icon{
 	.skill.gt-10{
 		display: none;
 	}
+	.pr-list{
+		padding-left: 0;
+	}
 }
