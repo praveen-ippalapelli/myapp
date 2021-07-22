@@ -157,6 +157,12 @@ a.icon{
 	}
 }
 
+@media(max-width: 767px){
+	.knowledge img{
+		width: 4rem;
+	}
+}
+
 @media(max-width: 575px){
 	.banner .row{
 		flex-direction: column-reverse;
@@ -173,5 +179,8 @@ a.icon{
 	}
 	.pr-list{
 		padding-left: 0;
+	}
+	.knowledge img{
+		width: 3rem;
 	}
 }
