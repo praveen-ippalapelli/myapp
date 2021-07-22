@@ -19,7 +19,7 @@ asp_net = { "title" : "ASP.NET", "known" : "2", "bg_color" : "#cbeefc", "color" 
 
 
 var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, expressjs, php, html, css,
- c_sharp, asp_net, redux, material_ui, bootstrap, jquery, json];
+ c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
 	for(i=0; i<skill_array.length; i++){
 		if (i>10) {
