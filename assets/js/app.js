@@ -15,24 +15,57 @@ redux = { "title" : "Redux", "known" : "4", "bg_color" : "#764abc", "color" : "w
 material_ui = { "title" : "Material UI", "known" : "4", "bg_color" : "#0081cb", "color" : "white" };
 c_sharp = { "title" : "C#", "known" : "2", "bg_color" : "#2b006e", "color" : "white" };
 asp_net = { "title" : "ASP.NET", "known" : "2", "bg_color" : "#cbeefc", "color" : "#155399" };
+angular = { "title" : "Angular", "known" : "2", "bg_color" : "#dd0031", "color" : "white" };
+wordpress = { "title" : "WordPress", "known" : "3", "bg_color" : "#21759b", "color" : "white" };
 
 
-
-var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, expressjs, php, html, css,
- c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
+var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, php, html, css,
+ c_sharp, asp_net, kitsune, redux, wordpress, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
-	for(i=0; i<skill_array.length; i++){
+	var skills_top = skill_array.slice(0, 20);
+	for(i=0; i<skills_top.length; i++){
 		if (i>10) {
 			gt_10 = 'gt-10'
 		}
 		$('.skills-list').append(
 		`
 		<div class="skill ${gt_10}">
-			<div class="level-bar" style="background:${skill_array[i].bg_color};width:${skill_array[i].known}0%;"></div>
-			<div class="skill-name" style="color:${skill_array[i].color};">${skill_array[i].title}</div>
+			<div class="level-bar" style="background:${skills_top[i].bg_color};width:${skills_top[i].known}0%;"></div>
+			<div class="skill-name" style="color:${skills_top[i].color};">${skills_top[i].title}</div>
 		</div>
 		`
 		);
 	}
+
+
+	/*
+
+	skills by percentage..
+
+	var total = 0;
+	for(i=0; i<skills_top.length; i++){
+		if (i>10) {
+			gt_10 = 'gt-10'
+		}
+		total = total + parseInt(skills_top[i].known + '0');
+	}
+	console.log(total);
+
+	for(i=0; i<skills_top.length; i++){
+		if (i>10) {
+			gt_10 = 'gt-10'
+		}
+		var measure_with_total = 100 * parseInt(skills_top[i].known + '0') / total ;
+		console.log(measure_with_total);
+		$('.skills-list').append(
+		`
+		<hr />
+		<div class="skill ${gt_10}">
+			<div class="level-bar" style="background:${skills_top[i].bg_color};width:${measure_with_total}0%;"></div>
+			<div class="skill-name" style="color:${skills_top[i].color};">${skills_top[i].title}</div>
+		</div>
+		`
+		);
+	}*/
 
 
