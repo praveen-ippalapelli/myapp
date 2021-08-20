@@ -22,7 +22,7 @@ wordpress = { "title" : "WordPress", "known" : "3", "bg_color" : "#21759b", "col
 var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, php, html, css,
  c_sharp, asp_net, kitsune, redux, wordpress, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
-	var skills_top = skill_array.slice(0, 20);
+	var skills_top = skill_array.slice(0, 15);
 	for(i=0; i<skills_top.length; i++){
 		if (i>10) {
 			gt_10 = 'gt-10'
