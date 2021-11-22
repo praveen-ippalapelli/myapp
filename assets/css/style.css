@@ -7,6 +7,10 @@
 	width: 1200px;
 }
 
+.flex-inline{
+	display: inline-flex;
+}
+
 .banner{
 	background-color: lightgrey;
 	padding: 2rem 0rem;
