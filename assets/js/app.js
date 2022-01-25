@@ -17,12 +17,13 @@ c_sharp = { "title" : "C#", "known" : "2", "bg_color" : "#2b006e", "color" : "wh
 asp_net = { "title" : "ASP.NET", "known" : "2", "bg_color" : "#cbeefc", "color" : "#155399" };
 angular = { "title" : "Angular", "known" : "2", "bg_color" : "#dd0031", "color" : "white" };
 wordpress = { "title" : "WordPress", "known" : "3", "bg_color" : "#21759b", "color" : "white" };
+umbraco = { "title" : "Umbraco", "known" : "2", "bg_color" : "#3643b3", "color" : "white" };
 
 
 var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, php, html, css,
- c_sharp, asp_net, kitsune, redux, wordpress, material_ui, bootstrap, jquery, json];
+ c_sharp, asp_net, kitsune, redux, wordpress, umbraco, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
-	var skills_top = skill_array.slice(0, 15);
+	var skills_top = skill_array.slice(0, 21);
 	for(i=0; i<skills_top.length; i++){
 		if (i>10) {
 			gt_10 = 'gt-10'
