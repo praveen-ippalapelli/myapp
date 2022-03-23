@@ -16,12 +16,12 @@ material_ui = { "title" : "Material UI", "known" : "4", "bg_color" : "#0081cb", 
 c_sharp = { "title" : "C#", "known" : "2", "bg_color" : "#2b006e", "color" : "white" };
 asp_net = { "title" : "ASP.NET", "known" : "2", "bg_color" : "#cbeefc", "color" : "#155399" };
 angular = { "title" : "Angular", "known" : "2", "bg_color" : "#dd0031", "color" : "white" };
-wordpress = { "title" : "WordPress", "known" : "3", "bg_color" : "#21759b", "color" : "white" };
-umbraco = { "title" : "Umbraco", "known" : "2", "bg_color" : "#3643b3", "color" : "white" };
+nextjs = { "title" : "Next.js", "known" : "2", "bg_color" : "black", "color" : "white" };
 
+//cod+tools: graphql, restapi, strapi, wordpress, umbraco
 
-var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, php, html, css,
- c_sharp, asp_net, kitsune, redux, wordpress, umbraco, material_ui, bootstrap, jquery, json];
+var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, nextjs, php, html, css,
+ c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
 	var skills_top = skill_array.slice(0, 21);
 	for(i=0; i<skills_top.length; i++){
@@ -34,6 +34,33 @@ var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, express
 			<div class="level-bar" style="background:${skills_top[i].bg_color};width:${skills_top[i].known}0%;"></div>
 			<div class="skill-name" style="color:${skills_top[i].color};">${skills_top[i].title}</div>
 		</div>
+		`
+		);
+	}
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+kitsune = { "title" : "Kitsune Serverless Framework", "src": "kitsune", "known" : "8" };
+visual_studio = { "title" : "Visual Studio", "src": "visual_studio", "known" : "8" };
+github = { "title" : "GitHub", "src": "github", "known" : "2" };
+postman = { "title" : "Postman API", "src": "postman", "known" : "8" };
+chrome_devtools = { "title" : "Chrome Developer Tools", "src": "chrome_devtools", "known" : "8" };
+vs_code = { "title" : "Visual Studio Code", "src": "vs_code", "known" : "4" };
+
+var kns_array = [visual_studio, github, kitsune, postman, chrome_devtools, vs_code ];
+	var gt_10 = '';
+	var kns_top = kns_array.slice(0, 5);
+	for(i=0; i<kns_top.length; i++){
+		if (i>10) {
+			gt_10 = 'gt-10'
+		}
+		$('.kns-list').append(
+		`
+			<img src="images/${kns_top[i].src}.jpg" title='${kns_top[i].name}'>
 		`
 		);
 	}
