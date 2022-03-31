@@ -129,7 +129,7 @@ a.icon{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 	padding: 1rem 0rem;
 }
@@ -152,6 +152,12 @@ a.icon{
 @media(min-width: 576px){
 	.nav-to-skill{
 		color: unset;
+	}
+}
+
+@media(min-width: 992px){
+	.knowledge .card{
+		justify-content: space-evenly;
 	}
 }
 

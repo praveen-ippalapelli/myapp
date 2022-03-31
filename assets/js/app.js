@@ -18,7 +18,7 @@ asp_net = { "title" : "ASP.NET", "known" : "2", "bg_color" : "#cbeefc", "color" 
 angular = { "title" : "Angular", "known" : "2", "bg_color" : "#dd0031", "color" : "white" };
 nextjs = { "title" : "Next.js", "known" : "2", "bg_color" : "black", "color" : "white" };
 
-//cod+tools: graphql, restapi, strapi, wordpress, umbraco
+//cod+tools: graphql, restapi
 
 var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, nextjs, php, html, css,
  c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
@@ -41,10 +41,7 @@ var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, express
 //-----------------------------------------------------------------------------------------------------------------------
 
 
-
-
-
-kitsune = { "title" : "Kitsune Serverless Framework", "src": "kitsune", "known" : "8" };
+/*kitsune = { "title" : "Kitsune Serverless Framework", "src": "kitsune", "known" : "8" };
 visual_studio = { "title" : "Visual Studio", "src": "visual_studio", "known" : "8" };
 github = { "title" : "GitHub", "src": "github", "known" : "2" };
 postman = { "title" : "Postman API", "src": "postman", "known" : "8" };
@@ -63,8 +60,10 @@ var kns_array = [visual_studio, github, kitsune, postman, chrome_devtools, vs_co
 			<img src="images/${kns_top[i].src}.jpg" title='${kns_top[i].name}'>
 		`
 		);
-	}
+	}*/
 
+
+//-----------------------------------------------------------------------------------------------------------------------
 
 	/*
 
