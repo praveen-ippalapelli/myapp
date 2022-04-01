@@ -20,7 +20,7 @@ nextjs = { "title" : "Next.js", "known" : "2", "bg_color" : "black", "color" : "
 
 //cod+tools: graphql, restapi
 
-var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, nextjs, php, html, css,
+var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, php, html, css, nextjs, 
  c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
 	var skills_top = skill_array.slice(0, 21);
