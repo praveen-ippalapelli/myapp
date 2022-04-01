@@ -17,11 +17,15 @@ c_sharp = { "title" : "C#", "known" : "2", "bg_color" : "#2b006e", "color" : "wh
 asp_net = { "title" : "ASP.NET", "known" : "2", "bg_color" : "#cbeefc", "color" : "#155399" };
 angular = { "title" : "Angular", "known" : "2", "bg_color" : "#dd0031", "color" : "white" };
 nextjs = { "title" : "Next.js", "known" : "2", "bg_color" : "black", "color" : "white" };
+python = { "title" : "Python", "known" : "1", "bg_color" : "#0277bc", "color" : "#fec009" };
+django = { "title" : "Django", "known" : "1", "bg_color" : "#0C4B33", "color" : "white" };
 
-//cod+tools: graphql, restapi
 
-var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, php, html, css, nextjs, 
- c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
+
+//cod+tools: graphql, restapi, postgresql(for django)
+
+var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, php, html, css, 
+python, django, nextjs, c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
 	var skills_top = skill_array.slice(0, 21);
 	for(i=0; i<skills_top.length; i++){
