@@ -17,18 +17,21 @@ c_sharp = { "title" : "C#", "known" : "2", "bg_color" : "#2b006e", "color" : "wh
 asp_net = { "title" : "ASP.NET", "known" : "2", "bg_color" : "#cbeefc", "color" : "#155399" };
 angular = { "title" : "Angular", "known" : "2", "bg_color" : "#dd0031", "color" : "white" };
 nextjs = { "title" : "Next.js", "known" : "2", "bg_color" : "black", "color" : "white" };
-python = { "title" : "Python", "known" : "1", "bg_color" : "#0277bc", "color" : "#fec009" };
-django = { "title" : "Django", "known" : "1", "bg_color" : "#0C4B33", "color" : "white" };
+python = { "title" : "Python", "known" : "2", "bg_color" : "#0277bc", "color" : "#fec009" };
+django = { "title" : "Django", "known" : "2", "bg_color" : "#0C4B33", "color" : "white" };
 
 
 
-//cod+tools: graphql, restapi, postgresql(for django)
+//cod+tools: graphql, restapi, postgresql(for django), sqlite
 
-var skill_array = [javascript, reactjs, nodejs, mongodb, mysql, angular, expressjs, php, html, css, 
-python, django, nextjs, c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
+var skill_array = [javascript, reactjs, nodejs, mongodb, python, django, mysql, angular, expressjs, php,
+ 	html, css, nextjs, c_sharp, asp_net, kitsune, redux, material_ui, bootstrap, jquery, json];
 	var gt_10 = '';
-	var skills_top = skill_array.slice(0, 21);
+	var skills_limit = 21;
+	var skills_sum = 0;
+	var skills_top = skill_array.slice(0, skills_limit);
 	for(i=0; i<skills_top.length; i++){
+		skills_sum += parseInt(skills_top[i].known);
 		if (i>10) {
 			gt_10 = 'gt-10'
 		}
@@ -41,6 +44,8 @@ python, django, nextjs, c_sharp, asp_net, kitsune, redux, material_ui, bootstrap
 		`
 		);
 	}
+	var skills_known_avg = skills_sum/skills_limit;
+	console.log('skills average: ' + skills_known_avg);
 
 //-----------------------------------------------------------------------------------------------------------------------
 
