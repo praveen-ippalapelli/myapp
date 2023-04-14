@@ -87,7 +87,7 @@ a.icon{
 	position: relative;
 }
 
-.pr-list .project-name::after{
+.pr-list a.project-name::after{
 	content: " \21F1";
     color: var(--themecolor);
     position: absolute;
